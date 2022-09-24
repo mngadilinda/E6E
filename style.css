@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(1, 2, 0.3, 0.2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar{
+    background-color: rgba(2, 1, 0.7, 0.1);
+    height: 12vh;
+    text-align: center;
+    font: 800;
+    position: sticky;
+}
+.nav-link{
+    font: 800;
+    font-size: xx-large;
+}
+.nav-item :hover{
+    border-top: 3px gold solid;
+}
+.showbar{
+    height: 30vh;
+    background-color: rgba(23, 41, 68, 0.2);
+    width: 60vw;
+    color: rgb(226, 1, 57);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+.carousel-inner{
+    width: 90vw;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.socials li{
+    display: flex;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.footer{
+    height: 13vh;
+}
+
+.forms{
+    width: 40vw;
+    margin-left: 55%;
+    position: fixed;
+}
+.e6e{
+    width: 30vw;
+    margin-top: 0;
+    margin: 2%;
+    border: 2px rgb(226, 1, 57) solid;
+    height: 40vh;
+}
