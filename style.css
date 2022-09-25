@@ -146,6 +146,9 @@ body{
     }
     .carousel-inner{
         margin: 3%;
+        height: 50vh;
+    }
+    .carousel-item img{
         height: 30vh;
     }
     .sect_one{
