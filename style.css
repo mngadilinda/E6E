@@ -38,6 +38,9 @@ body{
     height: 60vh;
     border-radius: 20px;
 }
+.carousel-item img{
+    background-color: rgba(0,0,0,0.8);
+}
 
 .socials li{
     display: flex;
@@ -49,7 +52,12 @@ body{
     height: 13vh;
     bottom: 0;
     top: 100%;
-   
+}
+.footer-about{
+    height: 13vh;
+    bottom: 0;
+    top: 100%;
+    position: absolute;
 }
 /*******************************************ABOUT PAGE*******************************************************************/
 
@@ -116,3 +124,69 @@ body{
 }
 
 /*******************************************SMALL DEVICES*******************************************************************/
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: rgba(118, 209, 167, 0.4);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar{
+        background-color: rgb(18, 67, 87);
+        height: 9vh;
+        position: relative;
+    }
+    .nav-item{
+        font: 300;
+        color: rgb(1, 162, 226);
+        font-size: large;
+    }
+    .showbar{
+        margin: 5%;
+        height: 35vh;
+    }
+    .carousel-inner{
+        margin: 3%;
+        height: 30vh;
+    }
+    .sect_one{
+        font: 100;
+        font-size: small;
+        height: 25vh;
+        width: 40vw;
+    }
+    .sect_two{
+        font: 100;
+        font-size: small;
+        height: 25vh;
+        width: 40vw;
+    }
+    .sect_three{
+        font: 100;
+        font-size: small;
+        height: 25vh;
+        width: 40vw;
+    }
+    .sect_four{
+        font: 100;
+        font-size: small;
+        height: 25vh;
+        width: 40vw;
+    }
+    .socials{
+        bottom: 0;
+    }
+    .e6e{
+        width: 70vw;
+        margin: 5%;
+    }
+    .forms{
+        margin: 5%;
+        width: 60vw;
+        position: relative;
+    }
+    
+    .footer-about{
+        position: relative;
+    }
+
+}
